@@ -1,0 +1,2 @@
+# Ignore all instances of constants.py in the project
+constants.py
