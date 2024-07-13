@@ -1,0 +1,24 @@
+.navbar{
+    width: 100%;
+    /* background-image: linear-gradient('rgb(150, 255, 150)', #016c0a); */
+    /* background-color: #016c0a; */
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarMenu{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.navbarMenuCenter{
+    color: white;
+    margin-left: 5px;
+    margin-right: 60px;
+    justify-content: center;
+}
+/* margin-right: 230; */

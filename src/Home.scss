@@ -1,0 +1,122 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+  
+    .logo {
+      margin-top: 4em;
+      margin-bottom: 4em;
+    }
+  
+    .site-name {
+      font-size: 1.5em;
+      margin-bottom: 0.25em;
+    }
+  
+    .welcome-message {
+      font-size: 1.5em;
+      margin-bottom: 2em;
+      max-width: fit-content;
+      white-space: pre-line;
+    }
+  
+    .enter-button {
+      padding: 1em 2em;
+      font-size: 20px;
+      color: #fff;
+      background-color: #119b1d;
+      margin-left:25px;
+      margin-right: 25px;
+      margin-bottom: 2em;
+
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #007b2b;
+      }
+    }
+
+    .table {
+      display: flex;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      padding: 25px 0px;
+      text-align: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+
+  .precaution{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-top: 1.5em;
+    padding-left: 10px;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5em;
+    font-size: larger;
+  }
+
+  .tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-left: 10px;
+    padding-bottom: 1.5em;
+    font-size: larger;
+  }
+
+  .content{
+    text-align: start;
+    font-size: 20px;
+    margin: 3px;
+  }
+
+  .enter-button {
+    padding: 1em 1em;
+    font-size: 20px;
+    color: #fff;
+    background-color: #119b1d;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+
+    &:hover {
+      background-color: #007b2b;
+    }
+  }
+
+  .button-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .emphasis{
+    text-emphasis-color: red;
+    color: red;
+  }
+}
